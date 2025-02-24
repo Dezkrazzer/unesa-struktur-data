@@ -4,19 +4,19 @@ print("===================================")
 
 angka_1 = int(input("» Masukkan angka pertama: "))
 angka_2 = int(input("» Masukkan angka kedua: "))
-operator = input("\n[1] Tambah\n[2] Kurang\n[3] Kali\n[4] Bagi\n\n» Pilih Operator (1/2/3/4): ")
+operator = input("» Pilih Operator (+, -, x, /): ")
 
-if operator == "1":
+if operator == "+":
     tambah = angka_1 + angka_2
-    print(f"Hasil {angka_1} + {angka_2} = {tambah}")
-elif operator == "2":
+    print(f"\nHasil {angka_1} + {angka_2} = {tambah}")
+elif operator == "-":
     kurang = angka_1 - angka_2
-    print(f"Hasil {angka_1} - {angka_2} = {kurang}")
-elif operator == "3":
+    print(f"\nHasil {angka_1} - {angka_2} = {kurang}")
+elif operator == "x":
     kali = angka_1 * angka_2
-    print(f"Hasil {angka_1} * {angka_2} = {kali}")
-elif operator == "4":
+    print(f"\nHasil {angka_1} x {angka_2} = {kali}")
+elif operator == "/":
     bagi = angka_1 / angka_2
-    print(f"Hasil {angka_1} / {angka_2} = {bagi}")
+    print(f"\nHasil {angka_1} / {angka_2} = {bagi}")
 else:
-    print("[ERROR] Operator yang Anda pilih tidak valid")
+    print("\n[ERROR] Operator yang Anda pilih tidak valid")
