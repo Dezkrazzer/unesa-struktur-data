@@ -1,4 +1,4 @@
-angka = [1,2,3,4,5,6,7,8,9,10]
+angka = [1,2,3,4,5] # List angka dari 1 sampai 10
 
-for x in angka:
-    print(x)
+for x in angka: # Looping untuk setiap angka dalam list angka
+    print(x) # Print angka
